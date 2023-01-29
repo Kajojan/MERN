@@ -1,0 +1,36 @@
+.CalSettings {
+  // border: solid 1px;
+  padding: 5px;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 10px;
+  .users {
+    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    a {
+      padding: 10px;
+      font-weight: 450;
+      font-size: large;
+      align-self: center;
+    }
+    button {
+      height: 30px;
+      width: fit-content;
+      font-size: small;
+      align-self: center;
+    }
+  
+  }
+  button.user{
+    background-color: hsl(240, 82%, 74%);
+  }
+  button.yes {
+    background-color: rgb(133, 255, 133);
+  }
+  button.no{
+    background-color: rgb(245, 63, 63);
+  }
+}

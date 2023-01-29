@@ -1,0 +1,87 @@
+.day {
+  background-color: rgb(28, 160, 221);
+  border-radius: 30px;
+  .search {
+    padding-top: 20px;
+    button {
+      cursor: pointer;
+      border-radius: 7px;
+      padding: 9px;
+      margin: 2px;
+    }
+    input {
+      width: 200px;
+      height: 40px;
+      border-radius: 7px;
+    }
+    .searchEvents {
+      display: flex;
+      flex-direction: column;
+      a {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: white;
+        width: fit-content;
+        align-self: center;
+      }
+    }
+  }
+  .week {
+    margin: 10px;
+    button {
+      cursor: pointer;
+      border-radius: 7px;
+      padding: 8px;
+      margin: 2px;
+    }
+  }
+  .cal {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows: 50px, repeat(4, 200px);
+    justify-items: center;
+    grid-gap: 16px;
+    // align-items: center;
+    // grid-gap: 50px;
+    .weekDays {
+      grid-row-start: 1;
+      grid-column-start: 1;
+      grid-column-end: 8;
+      display: flex;
+      align-items: flex-end;
+      gap: 205px;
+    }
+    .Month {
+      grid-row-start: 2;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 8;
+
+      margin: 10px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(7, 200px);
+      justify-content: center;
+      button {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        ul {
+          display: flex;
+          flex-direction: column;
+          padding: 0;
+          gap: 2px;
+          a {
+            background-color: rgb(133, 255, 133);
+
+            font-size: 18px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

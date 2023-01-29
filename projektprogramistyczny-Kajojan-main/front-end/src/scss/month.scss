@@ -1,0 +1,15 @@
+.Monthnavi{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    button{
+        font-weight: 450;
+        margin: 5px;
+        cursor: pointer;        
+        padding: 0 15px;
+        width: max-content;
+        height: 50px;
+        color: black;
+        font-size: 15px;
+    }
+}

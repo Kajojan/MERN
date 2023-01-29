@@ -1,0 +1,24 @@
+cal_id : a0a50c12-81e0-4823-9124-c6f710236f7c 
+ users: 
+ admin: 1 
+ reader: 0 
+ spec: 0 
+events: 27 
+cal_id : ea195114-af1c-46ab-ad99-9a73689f8a77 
+ users: 
+ admin: 1 
+ reader: 0 
+ spec: 0 
+events: 2 
+cal_id : d99a5762-c179-4209-a5b2-4f1067089702 
+ users: 
+ admin: 1 
+ reader: 0 
+ spec: 0 
+events: 1 
+cal_id : 28f66d07-cf59-4440-bd91-d9f10f40b2e9 
+ users: 
+ admin: 1 
+ reader: 2 
+ spec: 0 
+events: 0 

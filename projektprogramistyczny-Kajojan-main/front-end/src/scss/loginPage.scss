@@ -1,0 +1,59 @@
+$primary-color: rgb(93, 177, 247);
+$font: Verdana, Geneva, Tahoma, sans-serif; 
+
+body {
+    font-family: $font;
+  background-color: $primary-color;
+  letter-spacing: .01em;
+}
+h2{
+    color: white;
+    font-family:$font;
+}
+p{
+    font-family:$font;
+
+}
+a{
+    font-family: $font;
+
+}
+
+
+form.Login{
+    a{
+        margin: 20px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    order: solid 2px;
+    padding: 100px;
+    width: fit-content ;
+    input {
+        width: 100%;
+        height: 60px;
+    }
+    button{
+        font-family:$font;
+        margin-top: 50px;
+        cursor: pointer;        
+        padding: 0 10px;
+        width: 295px;
+        height: 60px;
+        color: black;
+        font-weight: bold;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    a {
+        font-family:$font;
+        text-decoration: none;
+        color: black;
+    }
+
+}

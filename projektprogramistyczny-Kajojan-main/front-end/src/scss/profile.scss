@@ -1,0 +1,61 @@
+.Profile {
+    margin: 10px;
+  .Info {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    width: fit-content;
+    left: 39%;
+
+    a {
+      padding: 10px;
+      align-self: flex-start;
+    }
+    margin-bottom: 10px;
+}
+    .Raports{
+        background-color: aliceblue;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    button{
+        font-weight: 450;
+        margin: 2px;
+        cursor: pointer;        
+        padding: 0 15px;
+        width: max-content;
+        height: 50px;
+        color: black;
+        font-size: 15px;
+    }
+    .Raport_cal{
+        background-color: rgb(133, 255, 133);
+        border-radius: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+    
+}
+button.LogOut{
+    position: absolute;
+    top:10%;
+    left:1%;
+    font-weight: 450;
+    // margin: 2px;
+    cursor: pointer;        
+    padding: 0 15px;
+    width: max-content;
+    height: 50px;
+    color: black;
+    font-size: 15px;
+
+}
+  
+}
